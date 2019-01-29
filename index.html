@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>HTML/CSS Workshop</title>
+
+  </head>
+
+  <body>
+
+    <h1 align='center' class='title'>Aviva's Restaurant</h1>
+    <img src='img.png' id='underline'>
+
+    <div class='row'>
+      <div class='column'>
+        <h1 class='menu-header'>Appetizers</h1>
+        <div class='column'>
+          <div class='menu-food'>Cheese and Crackers</div>
+          <div class='menu-food'>Carrots and Hummus</div>
+          <div class='menu-food'>Mozzerella Sticks</div>
+          <div class='menu-food'>Sweet Potato Fries</div>
+          <div class='menu-food'>Side Salad</div>
+        </div>
+        <div class='column'>
+          <div class='menu-price'>$5</div>
+          <div class='menu-price'>$6</div>
+          <div class='menu-price'>$5</div>
+          <div class='menu-price'>$7</div>
+          <div class='menu-price'>$6</div>
+        </div>
+      </div>
+      <div class='column'>
+        <h1 class='menu-header'>Entrees</h1>
+        <div class='column'>
+          <div class='menu-food'>Mac 'n' Cheese</div>
+          <div class='menu-food'>Peanut Butter and Jelly Sandwich</div>
+          <div class='menu-food'>Pasta</div>
+          <div class='menu-food'>Grilled Cheese</div>
+          <div class='menu-food'>House Salad</div>
+          <div class='menu-food'>Bowl of Chili</div>
+          <div class='menu-food'>Fried Rice</div>
+        </div>
+        <div class='column'>
+          <div class='menu-price'>$9</div>
+          <div class='menu-price'>$8</div>
+          <div class='menu-price'>$10</div>
+          <div class='menu-price'>$10</div>
+          <div class='menu-price'>$12</div>
+          <div class='menu-price'>$9</div>
+          <div class='menu-price'>$10</div> 
+        </div>
+      </div>
+    </div>
+    
+    <div class='row'>
+      <div class='task-header menu-header'>Try changing these things:</div>
+      <div align='center' class='task-list'>
+        <li>Page header and title<br>
+        <li>Menu items<br>
+        <li>Text color<br>
+        <li>Background color<br>
+        <li>Font size, type, and boldness<br>
+        <li>Add pictures or graphics<br>
+        <li>Change the layout of the page (make Entrees under Appetizers, make words not centered, etc.)<br> 
+      </div>
+    </div>
+
+  </body>
+
+  <style>
+
+    body {
+      background-color: #A9D0F5;
+      font-family: 'Bookman';
+    }
+
+    .title {
+      font-size: 100px;
+      margin-bottom: 10px; 
+    }
+
+    #underline {
+      width: 1500px;
+      height: 200px;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+    }
+
+    .menu-header {
+      font-size: 50px;
+      font-weight: 5000;
+      text-align: center;
+    }
+
+    .menu-food {
+      font-size: 20px;
+      font-weight: 10;
+      margin-bottom: 15px;
+      position: relative;
+      padding-left: 100px;
+    }
+
+    .menu-price {
+      font-size: 20px;
+      font-weight: 10;
+      margin-bottom: 15px;
+      position: relative;
+      padding-left: 150px;
+    }
+
+    .task-header {
+      text-align: center;
+      margin-top: 500px;
+    }
+
+    .task-list {
+      font-size: 20px;
+      font-weight: 20;
+      text-align: center;
+    }
+
+  </style>
+
+</html>
